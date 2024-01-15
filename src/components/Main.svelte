@@ -182,7 +182,7 @@
   <ul class="grid grid-cols-7 gap-5">
     {#each data.results as i (i.id)}
       <li
-        class="flex flex-col justify-center items-center border-2 border-white/50 p-2 rounded-sm"
+        class="flex flex-col justify-center items-center border-2 border-white/50 p-2 rounded-sm text-center"
       >
         <h4 class="text-lg">{i.name}</h4>
         <p>Species: {i.species}</p>
