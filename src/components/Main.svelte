@@ -1,6 +1,6 @@
 <!-- Typescript -->
 <script lang="ts">
-  import { afterUpdate, onMount } from "svelte";
+  import { onMount } from "svelte";
 
   type Personajes = {
     id: number;
